@@ -1,0 +1,18 @@
+{
+    "version":"0.0.1",
+    "configurations": [
+        {
+            "name":"Depurador do Python: FastAPI",
+            "type":"debugpy",
+            "request":"launch",
+            "module": "uvicorn",
+            "args": [
+                "ReservasAPI.app:app",
+                "--host","127.0.0.1",
+                "--port","8000",
+                "--reload"
+            ],
+            "jinja":true
+        }
+    ]
+}
