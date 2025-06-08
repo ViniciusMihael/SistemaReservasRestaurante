@@ -1,6 +1,8 @@
 from fastapi import FastAPI, Query
 from .schemas import Usuario
 
+
+
 app = FastAPI()
             
 
@@ -9,3 +11,6 @@ async def registrar_usuarios(user: Usuario):
     return {
         "user": user
     }
+
+
+#! Mudar uma parte#
